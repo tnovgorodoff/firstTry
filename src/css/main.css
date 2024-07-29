@@ -77,7 +77,7 @@
   }
 
   .main__section-btn::before {
-    content: url(../img/icons/expand.svg);
+    content: url(./img/icons/expand.svg);
   }
 
   .main__section-pic {
