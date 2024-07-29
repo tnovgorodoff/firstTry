@@ -22,4 +22,31 @@
     padding: 8px 22px;
     background-color: #fff;
   }
+
+  .main__section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+
+  .main__section-text {
+    margin: 0px 0 15px 35px;
+    max-width: 490px;
+    color: #1b1c21;
+  }
+
+  .main__section-btn {
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: #f8f8f8;
+  }
+
+  .main__section-btn::before {
+    content: url(../img/icons/expand.svg);
+  }
+
+  .main__section-pic {
+    margin-right: 30px;
+  }
 }
