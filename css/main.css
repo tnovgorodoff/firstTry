@@ -1,14 +1,38 @@
 @media (min-width: 1120px) {
-  .main {
-    margin-top: 10px;
+  @font-face {
+    font-family: "TTLakes";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/TTLakesCondensed-Regular.woff);
+  }
+
+  @font-face {
+    font-family: "TTLakes";
+    font-style: medium;
+    font-weight: 500;
+    src: url(../fonts/TTLakesCondensed-Medium.woff);
+  }
+  @font-face {
+    font-family: "TTLakes";
+    font-style: bold;
+    font-weight: 700;
+    src: url(../fonts/TTLakesCondensed-Bold.woff);
   }
 
   .main__nav-list {
+    font-family: "TTLakes";
+    font-style: medium;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    font-size: 16px;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-left: 25px;
+    margin: 0px;
   }
 
   .main__nav-list > li {
@@ -26,16 +50,26 @@
   .main__section {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 30px;
   }
 
   .main__section-text {
+    font-family: "TTLakes";
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
     margin: 0px 0 15px 35px;
     max-width: 490px;
     color: #1b1c21;
   }
 
   .main__section-btn {
+    font-family: "TTLakes";
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: -0.2px;
     display: flex;
     align-items: center;
     border: 0;
