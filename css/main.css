@@ -1,27 +1,27 @@
 @media (min-width: 1120px) {
   @font-face {
-    font-family: "TTLakes";
+    font-family: "TTLakes Regular";
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/TTLakesCondensed-Regular.woff);
+    src: url(../fonts/TTLakesCondensed-Regular.woff) format('woff');
   }
 
   @font-face {
-    font-family: "TTLakes";
-    font-style: medium;
+    font-family: "TTLakes Medium";
+    font-style: normal;
     font-weight: 500;
-    src: url(../fonts/TTLakesCondensed-Medium.woff);
+    src: url(../fonts/TTLakesCondensed-Medium.woff) format('woff');
   }
+
   @font-face {
-    font-family: "TTLakes";
-    font-style: bold;
+    font-family: "TTLakes Bold";
+    font-style: normal;
     font-weight: 700;
-    src: url(../fonts/TTLakesCondensed-Bold.woff);
+    src: url(../fonts/TTLakesCondensed-Bold.woff) format('woff');
   }
 
   .main__nav-list {
-    font-family: "TTLakes";
-    font-style: medium;
+    font-family: "TTLakes Regular";
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.2px;
@@ -35,12 +35,12 @@
     margin: 0px;
   }
 
-  .main__nav-list > li {
+  .main__nav-list-item {
     margin-right: 20px;
     color: #7e7e82;
   }
 
-  .active {
+  .main__nav-list-item_active {
     border: 2px solid #b8ffec;
     border-radius: 6px;
     padding: 8px 22px;
@@ -54,7 +54,7 @@
   }
 
   .main__section-text {
-    font-family: "TTLakes";
+    font-family: "TTLakes Regular";
     font-weight: 400;
     line-height: 20px;
     font-size: 14px;
@@ -65,7 +65,7 @@
   }
 
   .main__section-btn {
-    font-family: "TTLakes";
+    font-family: "TTLakes Medium";
     font-weight: 500;
     line-height: 24px;
     font-size: 16px;
